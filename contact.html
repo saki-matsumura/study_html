@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>株式会社DIVE</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header clearfix">
+            <a href="index.html">
+            <img src="./images/logo.png" class="logo_image">
+            </a>
+            <div class="menu">
+                <nav>
+                <ul class="top_menu clearfix">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="business.html">事業内容</a></li>
+                    <li><a href="company.html">会社概要</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <img src="./images/contact.png" class="image_area">
+
+            <div class="wrapper parent clearfix">
+                <aside class="side_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="business.html">事業内容</a></li>
+                            <li><a href="company.html">会社概要</a></li>
+                            <li class="point"><a href="contact.html">お問い合わせ</a></li>
+                        </ul>
+                    </nav>
+                    <!--  
+                    <p class="banner">
+                        <a href="#">
+                        <img src="./images/banner.png">
+                        </a>
+                    </p>
+                    -->
+                </aside>
+                <article class="content">
+
+                <!-- ここをdivで囲む -->
+                <div class="form">
+                    <form action="">
+                        <table class="contact">
+                            <tr>
+                                <th><label for="name">お名前</label></th>
+                                <td><input type="text" id="name" name="name" class="input-form"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="email">メールアドレス</label></th>
+                                <td><input type="mail" id="email" name="email" class="input-form"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="contact-sex">性別</label></th>
+                                <td>
+                                    <div class="input-form">
+                                    <label><input type="radio" name="contact-sex" />男</label>
+                                    <label><input type="radio" name="contact-sex" />女</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><label for="message">内容</label></th>
+                                <td><textarea id="message" name="message" class="input-form"></textarea></td>
+                            </tr>
+
+                        </table>
+                            <!-- ここをテキストアライン、センター等を設定する -->
+                            <p class="send-form"><a href="#">送信</a></p>
+                        
+                    </form>
+                <!-- ここまでdiv -->
+                </div>
+    
+
+                    
+
+                </article>
+            </div>
+        <footer class="footer">
+            <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.contact {
+    border-collapse: collapse;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.contact tr {
+    height: 7rem;
+}
+
+.contact th {
+    width: 150px;
+    text-align: right;
+}
+
+.contact td{
+    padding-left: 10px;
+    
+}
+
+.input-form {
+    width: 480px;
+    text-align: left;
+}
+
+.test p{
+    text-align: center;
+
+}
+
+.send-form{
+    display: inline-block;
+
+}
+
+.send-form a{
+    font-size: 3rem;
+    color: #fff;
+    background-color: #008B8B; 
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    /*margin-left: 330px;*/
+}
+
+.send-form a:hover{
+    opacity: 0.5;
+}
+
